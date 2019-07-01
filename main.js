@@ -16,3 +16,12 @@ function showHamish(){
         x.style.display = "none";
     }
 }
+function showOlaf(){
+    var x = document.getElementById('olaf');
+    if (x.style.display === "none") {
+        x.style.display = "inline-block";
+    }
+    else {
+        x.style.display = "none";
+    }
+}
