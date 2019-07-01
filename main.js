@@ -1,4 +1,4 @@
-function howFastest(){
+function showFastest(){
     var x = document.getElementById('fastest');
     if (x.style.display === "none") {
         x.style.display = "inline-block";
