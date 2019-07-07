@@ -39,7 +39,7 @@ function showAverage(){
     var y = document.getElementById('buttons');
     var z = document.getElementById('fastest');
     if (x.style.display === "none") {
-        x.style.display = "inline-block";
+        x.style.display = "block";
     }
     else {
         x.style.display = "none";
