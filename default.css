@@ -1,19 +1,101 @@
 h1{
     font-family: Arial, Helvetica, sans-serif;
-    color:#691641;  
+    color:#BA0046;  
     font-size: 50px;
+    padding-bottom: 40px;
+    text-align: center;
 }
 .personalRace{
     width:1800px
 }
-button{
-    background-color: #691641; /* Green */
-    border: none;
+.button1{
+    background-color:#621b40 ;
+    border-style:hidden;
     color: white;
-    padding: 15px 30px;
-    text-align: center;
+    padding: 20px 0px;
     text-decoration: none;
-    display: inline-block;
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
+    width:300px;
+    display:inline-block;
+    text-align: center;
 }
+.button1 {
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+  }
+.button1:hover{
+    background-color: #ba0046; 
+    color: white;
+}
+.button2{
+    background-color: #621b40;
+    border:solid 1px white;
+    border-bottom-width:3px;
+    color: white;
+    padding: 20px 0px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    width:300px;
+    display:inline-block;
+    text-align: center;
+}
+a.button2 {
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+  }
+a.button2:hover{
+    background-color: #ba0046; 
+    color: white;
+}
+.backButton{
+    background-color: #621b40; 
+    border:solid 1px white;
+    border-bottom-width:3px;
+    color: white;
+    padding: 15px 0px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    width:200px;
+    display:inline-block;
+    text-align: center;
+}
+a.backButton:hover{
+    background-color: #ba0046; 
+    color: white;
+}
+#buttons{
+    width:300px;
+    padding-left: 20px;
+}
+#showButtons{
+    padding-left: 21px;
+    padding-bottom: 2px;
+}
+#fastest{
+    padding-left:20px;
+    padding-top:20px;
+}
+#average{
+    padding-top:20px;
+    padding-left:20px;
+}
+
+.tg  {
+    border-collapse:collapse;
+    border-spacing:0;
+    border-color:#ccc;    
+}
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-n6bu{font-weight:bold;border-color:#9b9b9b;text-align:left;vertical-align:top}
+.tg .tg-tuns{font-weight:bold;color:#ba0046;border-color:#9b9b9b;text-align:left}
+.tg .tg-2fdn{border-color:#9b9b9b;text-align:left;vertical-align:top}
+.tg .tg-o40d{border-color:#9b9b9b;text-align:center;vertical-align:top}
+.tg .tg-bd5l{font-weight:bold;background-color:#621b40;color:#ffffff;border-color:#000000;text-align:left;vertical-align:top}
+.tg .tg-vbic{font-weight:bold;border-color:#9b9b9b;text-align:center;vertical-align:top}
+.tg .tg-vs5t{font-weight:bold;color:#ba0046;border-color:#9b9b9b;text-align:left;vertical-align:top}
+.tg .tg-dbgu{color:#ba0046;border-color:#9b9b9b;text-align:center;vertical-align:top}
