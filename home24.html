@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Shu24</title>
+    <link href="default.css" rel="stylesheet" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <div>
+        <h1>S.H.U 24h adventure</h1>
+    </div>
+    <a href=index.html class ="backButton">back</a>
+    <div id="showButtons">
+        <button class="button1" onclick="showFastest()">Fastest laps</button>
+        <button class="button1" onclick="showPersonal()" >Lap time per person</button>
+        <button class="button1" onclick="showAverage()" >Average lap time per person</button>
+    </div> 
+    <div id="buttons" style="display:none">
+        <a href=chris.html class ="button2">Chris's stints</a>
+        <a href=ewan.html class ="button2">Ewan's stints</a>   
+        <a href=hamish.html class ="button2">Hamish's stints</a>
+        <a href=james.html class ="button2">James's stints</a>
+        <a href=joe.html class ="button2">Joe's stints</a>
+        <a href=mattB.html class ="button2" >Matt B.'s stints</a>
+        <a href=mattJ.html class ="button2">Matt J.'s stints</a>
+        <a href=olaf.html class ="button2">Olaf's stints</a>
+    </div>
+    <div id="fastest" style="display:none">
+        <img src="images/Fastest_Lap.PNG"/>
+    </div>
+    <div id="average" style="display:none" >
+        <img src="images/average.png"/>
+        <table class="tg" style="table-layout: fixed; width: 382px">
+        <colgroup>
+        <col style="width: 204px">
+        <col style="width: 178px">
+        </colgroup>
+            <tr>
+            <th class="tg-bd5l" colspan="2">﻿Average lap time per person</th>
+            </tr>
+            <tr>
+            <td class="tg-n6bu">Name:</td>
+            <td class="tg-vbic">Time:</td>
+            </tr>
+            <tr>
+            <td class="tg-vs5t">Chris:</td>
+            <td class="tg-dbgu"></td>
+            </tr>
+            <tr>
+            <td class="tg-n6bu">Stint 1</td>
+            <td class="tg-o40d">01:23.629</td>
+            </tr>
+            <tr>
+            <td class="tg-2fdn"></td>
+            <td class="tg-o40d"></td>
+            </tr>
+            <tr>
+            <td class="tg-vs5t">Ewan:</td>
+            <td class="tg-o40d"></td>
+            </tr>
+            <tr>
+            <td class="tg-n6bu">Stint 1</td>
+            <td class="tg-o40d">01:22.605</td>
+            </tr>
+            <tr>
+            <td class="tg-n6bu">Stint 2</td>
+            <td class="tg-o40d">01:23.252</td>
+            </tr>
+            <tr>
+            <td class="tg-n6bu">All stints</td>
+            <td class="tg-o40d">01:22.928</td>
+            </tr>
+            <tr>
+            <td class="tg-2fdn"></td>
+            <td class="tg-o40d"></td>
+            </tr>
+            <tr>
+            <td class="tg-tuns">Hamish:</td>
+            <td class="tg-o40d"></td>
+            </tr>
+            <tr>
+            <td class="tg-n6bu">Stint 1</td>
+            <td class="tg-o40d">01:19.906</td>
+            </tr>
+            <tr>
+            <td class="tg-n6bu">Stint 2</td>
+            <td class="tg-o40d">01:20.202</td>
+            </tr>
+            <tr>
+            <td class="tg-n6bu">Stint 3</td>
+            <td class="tg-o40d">01:20.248</td>
+            </tr>
+            <tr>
+            <td class="tg-n6bu">Stint 4</td>
+            <td class="tg-o40d">01:20.396</td>
+            </tr>
+            <tr>
+            <td class="tg-n6bu">All stints</td>
+            <td class="tg-o40d">01:20.188</td>
+            </tr>
+            <tr>
+            <td class="tg-2fdn"></td>
+            <td class="tg-o40d"></td>
+            </tr>
+            <tr>
+            <td class="tg-vs5t">James:</td>
+            <td class="tg-o40d"></td>
+            </tr>
+            <tr>
+            <td class="tg-n6bu">Stint 1</td>
+            <td class="tg-o40d">01:22.215</td>
+            </tr>
+            <tr>
+            <td class="tg-n6bu">Stint 2</td>
+            <td class="tg-o40d">01:22.547</td>
+            </tr>
+            <tr>
+            <td class="tg-n6bu">Stint 3</td>
+            <td class="tg-o40d">01:21.944</td>
+            </tr>
+            <tr>
+            <td class="tg-n6bu">All stints</td>
+            <td class="tg-o40d">01:22.235</td>
+            </tr>
+            <tr>
+            <td class="tg-2fdn"></td>
+            <td class="tg-o40d"></td>
+            </tr>
+            <tr>
+            <td class="tg-vs5t">Joe:</td>
+            <td class="tg-o40d"></td>
+            </tr>
+            <tr>
+            <td class="tg-n6bu">Stint 1</td>
+            <td class="tg-o40d">01:21.648</td>
+            </tr>
+            <tr>
+            <td class="tg-n6bu">Stint 2</td>
+            <td class="tg-o40d">01:21.932</td>
+            </tr>
+            <tr>
+            <td class="tg-n6bu">All stints</td>
+            <td class="tg-o40d">01:21.790</td>
+            </tr>
+            <tr>
+            <td class="tg-2fdn"></td>
+            <td class="tg-o40d"></td>
+            </tr>
+            <tr>
+            <td class="tg-vs5t">Matt B.:</td>
+            <td class="tg-o40d"></td>
+            </tr>
+            <tr>
+            <td class="tg-n6bu">Stint 1</td>
+            <td class="tg-o40d">01:21.526</td>
+            </tr>
+            <tr>
+            <td class="tg-n6bu">Stint 2</td>
+            <td class="tg-o40d">01:21.865</td>
+            </tr>
+            <tr>
+            <td class="tg-n6bu">Stint 3</td>
+            <td class="tg-o40d">01:22.075</td>
+            </tr>
+            <tr>
+            <td class="tg-n6bu">All stints</td>
+            <td class="tg-o40d">01:21.822</td>
+            </tr>
+            <tr>
+            <td class="tg-2fdn"></td>
+            <td class="tg-o40d"></td>
+            </tr>
+            <tr>
+            <td class="tg-vs5t">Matt J.:</td>
+            <td class="tg-o40d"></td>
+            </tr>
+            <tr>
+            <td class="tg-n6bu">Stint 1</td>
+            <td class="tg-o40d">01:23.363</td>
+            </tr>
+            <tr>
+            <td class="tg-2fdn"></td>
+            <td class="tg-o40d"></td>
+            </tr>
+            <tr>
+            <td class="tg-vs5t">Olaf:</td>
+            <td class="tg-o40d"></td>
+            </tr>
+            <tr>
+            <td class="tg-n6bu">Stint 1</td>
+            <td class="tg-o40d">01:21.129</td>
+            </tr>
+            <tr>
+            <td class="tg-n6bu">Stint 2</td>
+            <td class="tg-o40d">01:21.263</td>
+            </tr>
+            <tr>
+            <td class="tg-n6bu">All stints</td>
+            <td class="tg-o40d">01:21.196</td>
+            </tr>
+        </table>
+        
+    </div>
+</body>
+</html>
+
