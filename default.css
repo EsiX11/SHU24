@@ -12,6 +12,14 @@ h2{
     padding-top: 40px;
     text-align: center;
 }
+#Div2 {
+    margin-left: 30px;
+    display:inline-block;
+    border-style:solid;
+    border: hidden;
+    width:1024px;
+    text-align:center;
+      }
 .listHome{
     font-family: Arial, Helvetica, sans-serif; 
     display:table;
@@ -80,6 +88,38 @@ a.button2:hover{
     text-align: center;
 }
 a.backButton:hover{
+    background-color: #ba0046; 
+    color: white;
+}
+.Button3 {
+    background-color: #621b40;  
+    border:solid 1px white;
+    color: white;
+    padding: 6px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    float:left;
+}
+a.Button3:hover{
+    background-color: #ba0046; 
+    color: white;
+}
+.Button4 {
+    background-color: #621b40;  
+    border:solid 1px white;
+    color: white;
+    padding: 6px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+}
+a.Button4:hover{
     background-color: #ba0046; 
     color: white;
 }
